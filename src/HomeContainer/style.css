@@ -1,0 +1,34 @@
+.homeContainer {
+  height: 100%;
+  width: 100%;
+}
+.homeBody {
+  margin: 0px 15px;
+}
+.myreacttable {
+  margin: 20px 0px;
+}
+.letsscroll div:first-child {
+  overflow-x: scroll;
+}
+.submitButton {
+  margin-left: 15px !important;
+}
+
+.rowtitle {
+  font-weight: bold;
+  font-size: 17px;
+}
+.tabletitle {
+  font-weight: bold !important;
+  font-size: 19px !important;
+}
+.formContainer .formInput {
+  width: 350px;
+}
+.formContainer .buttonparent button {
+  width: 350px;
+}
+header h6 {
+  margin: auto !important;
+}
