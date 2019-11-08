@@ -13,7 +13,8 @@ import { withStyles } from "@material-ui/core/styles";
 import "react-table/react-table.css";
 import axios from "axios";
 import myDB from "../setup";
-const url = "https://bac05b45.ngrok.io/";
+const url =
+  "https://us-central1-syscodemo-iuqlqw.cloudfunctions.net/nodeserver/";
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +23,7 @@ class Home extends Component {
       comment: "",
       application: "",
       aprovername: "",
-      phoneNumber: 8891647140
+      phoneNumber: ""
     };
   }
   handleClick = () => {
